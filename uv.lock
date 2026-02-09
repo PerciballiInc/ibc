@@ -499,6 +499,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "asgiref" },
     { name = "django" },
+    { name = "pillow" },
     { name = "pycryptodome" },
     { name = "pyyaml" },
     { name = "sqlparse" },
@@ -541,6 +542,7 @@ docs = [
 requires-dist = [
     { name = "asgiref", specifier = "==3.7.2" },
     { name = "django", specifier = "==4.2.4,<5.0.0" },
+    { name = "pillow", specifier = "==8.0.0" },
     { name = "pycryptodome", specifier = "==3.18.0" },
     { name = "pyyaml", specifier = "==5.3.1" },
     { name = "sqlparse", specifier = "==0.4.2" },
@@ -811,6 +813,12 @@ sdist = { url = "https://files.pythonhosted.org/packages/a0/2a/bd167cdf116d4f353
 wheels = [
     { url = "https://files.pythonhosted.org/packages/b4/2a/9b1be29146139ef459188f5e420a66e835dda921208db600b7037093891f/pathspec-0.11.2-py3-none-any.whl", hash = "sha256:1d6ed233af05e679efb96b1851550ea95bbb64b7c490b0f5aa52996c11e92a20", size = 29603, upload-time = "2023-07-29T01:05:02.656Z" },
 ]
+
+[[package]]
+name = "pillow"
+version = "8.0.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/74/15/93be74c3124ad183ea3f25251a66d3c7f8641065537973c276e81f703a0b/Pillow-8.0.0.tar.gz", hash = "sha256:59304c67d12394815331eda95ec892bf54ad95e0aa7bc1ccd8e0a4a5a25d4bf3", size = 44619742, upload-time = "2020-10-14T18:19:08.537Z" }
 
 [[package]]
 name = "pip"
